@@ -1,0 +1,16 @@
+Cadastrar Aluno (POST /alunos):
+Valida as notas antes de adicionar.
+Calcula a média e a situação automaticamente.
+
+Listar Alunos (GET /alunos):
+Retorna todos os alunos cadastrados.
+
+Alterar dados de um Aluno (PUT /alunos/:id):
+Permite a alteração de nome e notas em específico.
+Recalcula a média e a situação após a alteração.
+
+Deletar um Aluno (DELETE /alunos/:id):
+Remove um aluno do array.
+
+Retornar nome e média de um aluno pelo ID (GET /alunos/:id):
+Retorna o nome e a média em específico.
